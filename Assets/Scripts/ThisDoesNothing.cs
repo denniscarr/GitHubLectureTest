@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class ThisDoesNothing : MonoBehaviour
 {
+    float nothing;
+    string alsoNothing;
+
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        nothing = 0;
+        alsoNothing = "";
     }
 }
